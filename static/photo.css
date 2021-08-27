@@ -1,0 +1,30 @@
+.main {
+	overflow: scroll;
+}
+
+.photo-container {
+	margin-top: 20px;
+}
+
+.photo-title {
+	background-color: #eeeeee;
+	font-family: "NeoDunggeunmo";
+	padding: 7px;
+	margin: 0 auto 10px;
+	font-size: 14px;
+}
+
+.photo-photo {
+	width: 485px;
+}
+
+.photo-photo img {
+	width: 100%;
+	margin: auto;
+}
+
+.photo-content {
+	margin-bottom: 3rem;
+	font-family: "NeoDunggeunmo";
+	font-size: 14px;
+}

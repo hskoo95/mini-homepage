@@ -1,0 +1,67 @@
+.main {
+	padding: 0 20px;
+}
+
+.updated_news {
+	margin-top: 15px;
+	margin-bottom: 40px;
+	font-size: 13px;
+}
+
+.main > div > span {
+	color: #5991b2;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.main > div > hr {
+	margin: 0;
+}
+
+.news_container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.line {
+	margin: 5px;
+}
+
+.board,
+.album {
+	color: white;
+	background-color: #6b7ec2;
+	padding: 2px 5px;
+	border-radius: 3px;
+}
+
+.board {
+	background-color: #6b7ec2;
+}
+
+.album {
+	background-color: #f26460;
+}
+
+.board_table table tbody td {
+	border-bottom: 1px dotted black;
+	font-size: 13px;
+	padding-top: 3px;
+}
+
+.board_table table tbody td span {
+	font-family: "NeoDunggeunmo";
+	font-size: 12px;
+	color: #5a71c4;
+	font-weight: bold;
+}
+
+.board_table table {
+	border-collapse: collapse;
+	width: 250px;
+}
+
+.miniroom > img {
+	width: 100%;
+	height: 340px;
+}

@@ -1,0 +1,63 @@
+.main {
+	overflow-y: scroll;
+}
+
+.visitor {
+	font-family: "NeoDunggeunmo";
+	margin: 15px 15px;
+	padding-bottom: 30px;
+}
+
+.visitor-title {
+	background-color: #eeeeee;
+	padding: 8px 20px;
+}
+
+.visitor-title i {
+	margin: 0 8px;
+}
+
+.visitor-name {
+	color: blue;
+}
+
+.visit-date {
+	font-size: 14px;
+}
+
+.visitor-main {
+	display: flex;
+	align-items: center;
+}
+
+.visitor-image img {
+	width: 130px;
+	height: 120px;
+	margin: 15px 0;
+}
+
+.background-1,
+.background-2,
+.background-3 {
+	background-size: 140px 140px;
+	width: 140px;
+	margin: 15px 0;
+}
+
+.background-1 {
+	background-image: url(./images/back3.png);
+}
+
+.background-2 {
+	background-image: url(./images/back1.jpg);
+}
+
+.background-3 {
+	background-image: url(./images/back2.jpg);
+}
+
+.visitor-comment {
+	margin: 0 15px;
+	font-size: 13px;
+	line-height: 17px;
+}

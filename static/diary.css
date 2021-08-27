@@ -1,0 +1,88 @@
+.diary {
+	font-family: "NeoDunggeunmo";
+}
+
+.calendar {
+	height: 3rem;
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+}
+
+.date-today {
+	text-align: center;
+	color: #3b87ab;
+	margin: 0 10px;
+	font-size: medium;
+	font-weight: 800;
+}
+
+.days {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.day {
+	margin: 0 6px;
+}
+
+.sat {
+	color: blue;
+}
+
+.sun {
+	color: red;
+}
+
+.content-box {
+	height: 480px;
+	overflow-y: scroll;
+}
+
+.content {
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	padding-bottom: 20px;
+	margin: 20px 0;
+}
+
+.content .date {
+	color: #3b87ab;
+	margin: 20px 15px;
+}
+
+.content p {
+	text-align: center;
+	margin: 7px auto;
+}
+
+.hidden-btn-box {
+	display: flex;
+	justify-content: center;
+	user-select: none;
+	margin: 40px auto;
+}
+
+#secret-diary {
+	padding: 10px 20px;
+	font-size: 15px;
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	background-color: white;
+	align-items: center;
+}
+
+#secret-diary:hover {
+	cursor: pointer;
+	background-color: #3b87ab;
+	transition: 800ms ease all;
+}
+
+#hidden-content-box {
+	display: none;
+}

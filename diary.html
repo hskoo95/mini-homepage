@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2021 MINI HOMEPAGE</title>
+    <link rel="stylesheet" href="./static/font.css">
+    <link rel="stylesheet" href="./static/layout.css" />
+    <link rel="stylesheet" href="./static/home.css">
+    <link rel="stylesheet" href="./static/diary.css">
+  </head>
+  <body>
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+          <div class="container">
+            <div class="left">
+              <div class="today">
+                <span>TODAY <span class="colored">20</span> | TOTAL 21,023</span>
+              </div>
+              <div class="profile_box">
+                <div class="profile_picture">
+                  <img src="./static/images/racoonman.jpeg" alt="racoonman">
+                </div>
+                <div class="profile_exp">
+                  <p>HTML/CSS에서 가장 어렵다는 flex는 이 너굴맨이 처리했으니 안심하라구!!</p>
+                  <p>뭐든지 처리하는 너굴맨. 여러분의 근심걱정은 이 너굴맨이 처리하겠다!!</p>
+                </div>
+                <div class="profile_name">
+                  <span>너굴맨 (♂)</span>
+                </div>
+                <div class="profile_dropdown">
+                  <div class="dropdown_btn">
+                    <div class="dropdown_title">파도타기</div>
+                    <div class="triangle_down"></div>
+                  </div>
+                  <div class="dropdown_content">
+                    <a href="#" target="_blank">코뮤니티로 가기</a>
+                    <a href="#" target="_blank">인스타그램으로 가기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="center">
+              <div class="title_box">
+                <span class="title">코뮤니티 HTML 스터디 미니홈피</span>
+                <span class="url">https://url주소/나중에입력</span>
+              </div>
+              <div class="main">
+                <div class="diary">
+                  <div class="calendar">
+                    <div class="date-today">08.23<br/>MON</div>
+                    <div class="days">
+                      <div class="day">1</div>
+                      <div class="day">2</div>
+                      <div class="day">3</div>
+                      <div class="day">4</div>
+                      <div class="day">5</div>
+                      <div class="day">6</div>
+                      <div class="day sat">7</div>
+                      <div class="day sun">8</div>
+                      <div class="day">9</div>
+                      <div class="day">10</div>
+                      <div class="day">11</div>
+                      <div class="day">12</div>
+                      <div class="day">13</div>
+                      <div class="day sat">14</div>
+                      <div class="day sun">15</div>
+                      <div class="day">16</div>
+                      <div class="day">17</div>
+                      <div class="day">18</div>
+                      <div class="day">19</div>
+                      <div class="day">20</div>
+                      <div class="day sat">21</div>
+                      <div class="day sun">22</div>
+                      <div class="day">23</div>
+                      <div class="day">24</div>
+                      <div class="day">25</div>
+                      <div class="day">26</div>
+                      <div class="day">27</div>
+                      <div class="day sat">28</div>
+                      <div class="day sun">29</div>
+                      <div class="day">30</div>
+                      <div class="day">31</div>
+                    </div>
+                  </div>
+                  <div class="content-box">
+                    <div class="content">
+                      <div class="date">2021.08.23 월 16:30</div>
+                      <p>너굴맨은 뚠뚠 오늘도 뚠뚠</p>
+                      <p>열심히 공부하네</p>
+                      <p>너굴맨 뚠뚠 오늘도 뚠뚠</p>
+                      <p>열심히 과제하네</p>
+                    </div>
+                    <div class="content">
+                      <div class="date">2021.08.22 일 23:20</div>
+                      <p>매일매일 일요일만 같아라.</p>
+                      <p>너굴맨은 푹 쉬고 싶거든</p>
+                      <p>물론 그래도</p>
+                      <p>월요병은 너굴맨이 해결해줄게!</p>
+                    </div>
+                    <div class="content">
+                      <div class="date">2021.08.21 토 17:30</div>
+                      <p>오늘은 즐거운 주말</p>
+                      <p>행복지수 막 올라가</p>
+                    </div>
+                    <div class="content">
+                      <div class="date">2021.08.20 금 16:30</div>
+                      <p>드디어 내일은 주말!!</p>
+                      <p>뭐든지 해결하는 너굴맨도 주말은 쉽니다~</p>
+                    </div>
+                    <div class="content" id="hidden-content-box">
+                      <div class="date">너굴맨의 비밀일기</div>
+                      <p id="hidden-content"></p>
+                    </div>
+                    <div class="hidden-btn-box">
+                      <button id="secret-diary" onclick="getTextFile()"><i class="fas fa-lock"></i> 너굴맨의 비밀일기</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="menu_box">
+                <div class="home_btn">
+                  <a href="./home.html">홈</a>
+                </div>
+                <div class="diary_btn">
+                  <a href="./diary.html">다이어리</a>
+                </div>
+                <div class="album_btn">
+                  <a href="./photo.html">사진첩</a>
+                </div>
+                <div class="comment_btn">
+                  <a href="./visitor.html">방명록</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function getTextFile() {
+        var input = document.createElement("input");
+        input.type = "file";
+        input.accept = "text/plain";
+        input.onchange = function (event) {
+          processFile(event.target.files[0]);
+        };
+        input.click();
+      }
+
+      function processFile(file) {
+        var reader = new FileReader();
+        reader.readAsText(file, "utf-8");
+
+        reader.onload = function () {          
+          document.getElementById("hidden-content").innerText = reader.result;
+          document.getElementById("hidden-content-box").style.display = "block";
+        }
+      }
+    </script>
+    <script src="https://kit.fontawesome.com/1bd70c25c8.js" crossorigin="anonymous"></script>
+  </body>
+</html>
